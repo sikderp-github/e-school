@@ -1,11 +1,7 @@
-body {
-    margin: 0px;
-}
-
 .head,
 .banner {
     background-color: #f0fff0;
-    padding: 30px 40px;
+    padding: 20px 40px;
     margin: 0px;
 
 }
