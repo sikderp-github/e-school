@@ -1,3 +1,62 @@
-.container {
-    margin-bottom: 50px;
+.head,
+.banner {
+    background-color: #f0fff0;
+    padding: 30px 40px;
+    margin: 0px;
+    width: 100%;
+}
+
+#button {
+    border: none;
+    background-color: #21b573;
+    border-radius: 20px;
+    color: white;
+    padding: 10px 30px;
+}
+
+.col-md-5 h1 {
+    font-weight: 1000;
+}
+
+.col-md-5 span {
+    font-size: 60px;
+    color: #21b573;
+}
+
+.col-md-5 h5 {
+    color: #f79d77;
+}
+
+.card-credit img {
+    display: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card {
+    padding: 15px 0px;
+    border: none;
+    background-color: rgba(248, 255, 251, 1);
+    height: 230px;
+    border-radius: 8px;
+}
+
+#student {
+    box-shadow: 3px 3px 20px lightgray;
+    background-color: white;
+}
+
+.card-deck {
+    margin: 25px 50px;
+}
+
+.card-online {
+    border: none;
+    margin: 10px;
+    padding: 20px;
+    box-shadow: 3px 3px 10px lightgray;
+}
+
+.online courses {
+    margin: 20px 100px;
 }
