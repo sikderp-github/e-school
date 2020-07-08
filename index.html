@@ -2,162 +2,208 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
-    <link rel="stylesheet" href="mystyle.css" />
-    <title>E-School</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="mystyle.css" />
+  <title>E-School</title>
 </head>
 
 <body>
-    <header class="container-fluid head">
-        <nav class="navbar sticky-top navbar-expand-xl navbar-light">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse d-flex justify-content-between" id="navbarNavAltMarkup">
-                <div class="navbar logo">
-                    <img class="img-fluid w-25" src="images/ICON/Logo.png" alt="E-School logo">
-                </div>
-                <div class="navbar-nav col-sm-auto align-items-center">
-                    <a class="nav-item nav-link active" href="#">Books </a>
-                    <a class="nav-item nav-link" href="#">Courses</a>
-                    <a class="nav-item nav-link" href="#">Others</a>
-                    <a class="nav-item nav-link" href="#">Blogs</a>
-                    <a id="button" class="nav-item nav-link btn btn-success" href="#">Sign in</a>
-                </div>
+  <header class="container-fluid head">
+    <nav class="navbar navbar-expand-md sticky-top navbar-light bg-light">
+      <a class="navbar-brand" href="#">
+        <img class="img-fluid w-25" src="images/ICON/Logo.png" alt="E-School logo" />
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav col-sm-auto d-flex justify-content-end align-items-center ">
+          <a class="nav-item nav-link active" href="#">Books </a>
+          <a class="nav-item nav-link" href="#">Courses</a>
+          <a class="nav-item nav-link" href="#">Others</a>
+          <a class="nav-item nav-link" href="#">Blogs</a>
+          <a id="button" class="nav-item nav-link  text-nowrap" href="#">Sign in</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <!-- top banner section-->
+    <section class="container-fluid banner">
+      <div class="row d-flex flex-wrap justify-content-around align-items-center">
+        <div class="col-lg-5 banner-body">
+          <h5>Are you ready to learn?</h5>
+          <h1>Learn with fun on <span>any schedule</span></h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Doloribus, at.
+          </p>
+          <button id="button">Get Started</button>
+        </div>
+        <div class="col-lg-7 banner-body">
+          <img class="img-fluid w-100" src="images/Photos/Illustration.png" alt=" E-School banner" />
+        </div>
+      </div>
+    </section>
+    <!--Credit/performance section-->
+    <section class="credits">
+      <div class="card-deck d-flex justify-content-sm-center align-items-center text-center">
+        <div class="card performance">
+          <img src="images/ICON/book.png" class="card-img-top img-fluid w-25" alt="Topic" />
+          <div class="card-body">
+            <h5 class="card-title">1500+ Topic</h5>
+            <p class="card-text">Lear Anythings</p>
+          </div>
+        </div>
+        <div id="student-credit" class="card performance">
+          <img src="images/ICON/Student.png" class="card-img-top img-fluid w-25" alt="Student" />
+          <div class="card-body">
+            <h5 class="card-title">1800+ Students</h5>
+            <p class="card-text">Lear Anythings</p>
+          </div>
+        </div>
+        <div class="card performance">
+          <img src="images/ICON/Test.png" class="card-img-top img-fluid w-25" alt="test taken" />
+          <div class="card-body">
+            <h5 class="card-title">9K+ Test Taken</h5>
+            <p class="card-text">Learn Anything</p>
+          </div>
+        </div>
+        <div class="card performance">
+          <img src="images/ICON/Students.png" class="card-img-top img-fluid w-25" alt="Students pic" />
+          <div class="card-body">
+            <h5 class="card-title">2000+ Student</h5>
+            <p class="card-text">Learn Anythings</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Online Courses section-->
+    <section class="online courses">
+      <div class="card-psychology d-flex justify-content-between align-items-center text-center">
+        <div class="card-online">
+          <img src="images/Photos/Morder pyschology.png" class="card-img-top img-fluid w-75" alt="Modern Psychology" />
+          <div class="card-body">
+            <h5 class="card-title">Modern Psychology</h5>
+            <p class="card-text">Designation</p>
+            <button id="button">Buy Course</button>
+            <div class="d-flex bd-highlight">
+              <div class="p-2 flex-grow-1 bd-highlight">
+                <img class="img-fluid w-25" src="images/ICON/calendar.png" alt="" />
+                <small>Start 21 April, 2021</small>
+              </div>
+              <div class="p-2 bd-highlight">
+                <img class="img-fluid w-25" src="images/ICON/people.png" alt="" />
+                <small>60 Seats</small>
+              </div>
             </div>
-        </nav>
-    </header>
-    <main>
-        <section class="container-fluid banner">
-            <div class="row d-flex flex-wrap justify-content-around align-items-center">
-                <div class="col-lg-5">
-                    <h5>Are you ready to learn?</h5>
-                    <h1>Learn with fun on <span>any schedule</span></h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, at.</p>
-                    <button id="button">Get Started</button>
-                </div>
-                <div class="col-lg-7">
-                    <img class="img-fluid" src="images/Photos/Illustration.png" alt="">
-                </div>
+          </div>
+        </div>
+        <div class="card-online">
+          <img src="images/Photos/Morder psyc.png" class="card-img-top img-fluid w-75" alt="Modern Psychology" />
+          <div class="card-body">
+            <h5 class="card-title">Modern Psychology</h5>
+            <p class="card-text">Designation</p>
+            <button id="button">Buy Course</button>
+            <div class="d-flex bd-highlight">
+              <div class="p-2 flex-grow-1 bd-highlight">
+                <img class="img-fluid w-25" src="images/ICON/calendar.png" alt="" />
+                <small>Start 21 April, 2021</small>
+              </div>
+              <div class="p-2 bd-highlight">
+                <img class="img-fluid w-25" src="images/ICON/people.png" alt="" />
+                <small>60 Seats</small>
+              </div>
             </div>
-        </section>
-
-
-        <section class="card-credit">
-            <div class="card-deck d-flex justify-content-sm-center align-items-center text-center">
-                <div class="card">
-                    <img src="images/ICON/book.png" class="card-img-top img-fluid w-25" alt="Topic">
-                    <div class="card-body">
-                        <h5 class="card-title">1500+ Topic</h5>
-                        <p class="card-text">Lear Anythings</p>
-                    </div>
-                </div>
-                <div id="student" class="card">
-                    <img src="images/ICON/Student.png" class="card-img-top img-fluid w-25" alt="Student">
-                    <div class="card-body">
-                        <h5 class="card-title">1800+ Students</h5>
-                        <p class="card-text">Lear Anythings</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="images/ICON/Test.png" class="card-img-top img-fluid w-25" alt="test taken">
-                    <div class="card-body">
-                        <h5 class="card-title">9K+ Test Taken</h5>
-                        <p class="card-text">Learn Anything</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="images/ICON/Students.png" class="card-img-top img-fluid w-25" alt="Students pic">
-                    <div class="card-body">
-                        <h5 class="card-title">2000+ Student</h5>
-                        <p class="card-text">Learn Anythings</p>
-                    </div>
-                </div>
+          </div>
+        </div>
+        <div class="card-online">
+          <img src="images/Photos/Morder pychons.png" class="card-img-top img-fluid w-75" alt="Modern Psychology" />
+          <div class="card-body">
+            <h5 class="card-title">Modern Psychology</h5>
+            <p class="card-text">Designation</p>
+            <button id="button">Buy Course</button>
+            <div class="d-flex bd-highlight">
+              <div class="p-2 flex-grow-1 bd-highlight">
+                <img class="img-fluid w-25" src="images/ICON/calendar.png" alt="" />
+                <small>Start 21 April, 2021</small>
+              </div>
+              <div class="p-2 bd-highlight">
+                <img class="img-fluid w-25" src="images/ICON/people.png" alt="" />
+                <small>60 Seats</small>
+              </div>
             </div>
-        </section>
-        <!--Online Courses section-->
-        <section class="online courses">
-            <div class="card-psychology d-flex justify-content-between align-items-center text-center">
-                <div class="card-online">
-                    <img src="images/Photos/Morder pyschology.png" class="card-img-top img-fluid w-50"
-                        alt="Modern Psychology">
-                    <div class="card-body">
-                        <h5 class="card-title">Modern Psychology</h5>
-                        <p class="card-text">Designation</p>
-                        <button id="button">Buy Course</button>
-                        <div class="d-flex bd-highlight">
-                            <div class="p-2 flex-grow-1 bd-highlight">
-                                <img class="img-fluid w-25" src="images/ICON/calendar.png" alt="">
-                                <small>Start 21 April, 2021</small>
-                            </div>
-                            <div class="p-2 bd-highlight">
-                                <img class="img-fluid w-25" src="images/ICON/people.png" alt="">
-                                <small>60 Seats</small>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="card-online">
-                    <img src="images/Photos/Morder psyc.png" class="card-img-top img-fluid w-50"
-                        alt="Modern Psychology">
-                    <div class="card-body">
-                        <h5 class="card-title">Modern Psychology</h5>
-                        <p class="card-text">Designation</p>
-                        <button id="button">Buy Course</button>
-                        <div class="d-flex bd-highlight">
-                            <div class="p-2 flex-grow-1 bd-highlight">
-                                <img class="img-fluid w-25" src="images/ICON/calendar.png" alt="">
-                                <small>Start 21 April, 2021</small>
-                            </div>
-                            <div class="p-2 bd-highlight">
-                                <img class="img-fluid w-25" src="images/ICON/people.png" alt="">
-                                <small>60 Seats</small>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="card-online">
-                    <img src="images/Photos/Morder pychons.png" class="card-img-top img-fluid w-50"
-                        alt="Modern Psychology">
-                    <div class="card-body">
-                        <h5 class="card-title">Modern Psychology</h5>
-                        <p class="card-text">Designation</p>
-                        <button id="button">Buy Course</button>
-                        <div class="d-flex bd-highlight">
-                            <div class="p-2 flex-grow-1 bd-highlight">
-                                <img class="img-fluid w-50" src="images/ICON/calendar.png" alt="">
-                                <small>Start 21 April, 2021</small>
-                            </div>
-                            <div class="p-2 bd-highlight">
-                                <img class="img-fluid w-50" src="images/ICON/people.png" alt="">
-                                <small>60 Seats</small>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="testmonial">
-            <h1>Testmonial</h1>
-        </section>
-        <section class="link-footer">
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="testmonial text-center">
+      <h1>Testmonial</h1>
+      <div class="testmonial-body d-flex justify-content-center align-items-center">
+        <div class="col-md-4">
+          <img class="img-fluid w-50" src="images/Photos/Man.png" alt="people" />
+        </div>
+        <div class="col-md-5">
+          <p class="text-left">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
+            deserunt assumenda praesentium veritatis vitae dignissimos sed
+            voluptatibus nulla sequi amet.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="link-footer container-fluid bg-dark text-white">
+      <div class="row d-flex justify-content-center align-items-baseline">
+        <div class="col-sm-5 align-text-top justify-content-center">
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque,
+            maiores!
+          </p>
+        </div>
+        <div class="col-sm-2">
+          <h3>Courses</h3>
+          <p>Graphic Design</p>
+          <p>Web Design</p>
+          <p>Business</p>
+          <p>Marketing</p>
+          <p>Engineering</p>
+        </div>
+        <div class="col-sm-2">
+          <h3>Terms</h3>
+          <p>Graphic Design</p>
+          <p>Web Design</p>
+          <p>Business</p>
+          <p>Marketing</p>
+          <p>Engineering</p>
+        </div>
+        <div class="col-sm-3">
+          <h3>Useful Link</h3>
+          <p>Graphic Design</p>
+          <p>Web Design</p>
+          <p>Business</p>
+          <p>Marketing</p>
+          <p>Engineering</p>
+        </div>
+      </div><br><br>
+      <footer>
+        <p class="text-center">Copyright © Programminghero.com</p>
+      </footer>
+    </section>
+  </main>
 
-        </section>
-    </main>
-
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
-    </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
-    </script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootspapcdn.com/bootspap/4.5.0/js/bootspap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+  </script>
 </body>
 
 </html>

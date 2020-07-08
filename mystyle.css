@@ -1,9 +1,13 @@
+body {
+    margin: 0px;
+}
+
 .head,
 .banner {
     background-color: #f0fff0;
     padding: 30px 40px;
     margin: 0px;
-    width: 100%;
+
 }
 
 #button {
@@ -14,40 +18,40 @@
     padding: 10px 30px;
 }
 
-.col-md-5 h1 {
+.banner-body h1 {
     font-weight: 1000;
 }
 
-.col-md-5 span {
+.banner-body span {
     font-size: 60px;
     color: #21b573;
 }
 
-.col-md-5 h5 {
+.banner-body h5 {
     color: #f79d77;
 }
 
-.card-credit img {
-    display: relative;
+.credits img {
+    display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
-.card {
+.performance {
     padding: 15px 0px;
     border: none;
     background-color: rgba(248, 255, 251, 1);
-    height: 230px;
+    height: 300px;
     border-radius: 8px;
 }
 
-#student {
+#student-credit {
     box-shadow: 3px 3px 20px lightgray;
     background-color: white;
 }
 
 .card-deck {
-    margin: 25px 50px;
+    margin: 25px 0px;
 }
 
 .card-online {
@@ -59,4 +63,11 @@
 
 .online courses {
     margin: 20px 100px;
+}
+
+.credits,
+.online,
+.testmonial,
+.link-footer {
+    padding: 30px 10px;
 }
